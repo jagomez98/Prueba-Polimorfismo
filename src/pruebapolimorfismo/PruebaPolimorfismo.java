@@ -51,7 +51,7 @@ public class PruebaPolimorfismo {
         empleados[1]=empleadoPorHoras;
         empleados[2]=empleadoPorComision;
         empleados[3]=empleadoBaseMasComision;
-        
+        System.out.println("\n****************");
         for(Empleado empleadoActual : empleados){
             System.out.println(empleadoActual);
         }
